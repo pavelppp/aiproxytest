@@ -1,4 +1,0 @@
-EnterpriseLogAccessIamRole: 'arn:aws:iam::293042250950:role/aiproxytest-dev-EnterpriseLogAccessIamRole-1OTHHDLNF6Y8'
-HelloLambdaFunctionUrl: 'https://43polpipdnc7kzzjifn724vlxi0ufleg.lambda-url.us-east-2.on.aws/'
-HelloLambdaFunctionQualifiedArn: 'arn:aws:lambda:us-east-2:293042250950:function:aiproxytest-dev-hello:46'
-ServerlessDeploymentBucketName: aiproxytest
