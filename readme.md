@@ -11,5 +11,7 @@ sls deploy
 chmod +x invoke.sh
 
 ./invoke.sh
+OR
+<lambda_url>/?key=value
 
 response: {"key":"value"}
