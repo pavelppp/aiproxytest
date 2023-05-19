@@ -1,0 +1,1 @@
+curl $(yq .HelloLambdaFunctionUrl stack.yml)?key=value

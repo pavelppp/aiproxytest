@@ -1,0 +1,27 @@
+org: cvbot
+app: dev
+service: aiproxytest
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: python3.9
+  architecture: arm64
+  deploymentBucket:
+    name: aiproxytest
+  region: us-east-2
+
+functions:
+  hello:
+    handler: handler.hello
+    url: true
+
+custom:
+  output:
+    file: stack.yml
+
+plugins:
+  - serverless-python-requirements
+  - serverless-stack-output
+#  - serverless-layers
