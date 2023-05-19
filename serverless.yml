@@ -9,8 +9,8 @@ provider:
   runtime: python3.9
   architecture: arm64
   deploymentBucket:
-    name: aiproxytest
-  region: us-east-2
+    name: aiproxytestdeployments
+  region: eu-central-1
 
 functions:
   hello:
